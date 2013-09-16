@@ -1,0 +1,21 @@
+# MS Office files
+application/msword; ~/bin/view_mail_attachment.rb --file:%s --type:"-" --open_with:'/Applications/OpenOffice.org.app'
+application/vnd.ms-excel; ~/bin/view_mail_attachment.rb --file:%s --type:"-"
+application/vnd.openxmlformats-officedocument.presentationml.presentation; ~/bin/view_mail_attachment.rb --file:%s --type:"-" --open_with:'/Applications/OpenOffice.org.app'
+application/vnd.oasis.opendocument.text; ~/bin/view_mail_attachment.rb --file:%s --type:"-" --open_with:'/Applications/OpenOffice.org.app'
+
+# Images
+image/jpg; ~/bin/view_mail_attachment.rb --file:%s --type:jpg
+image/jpeg; ~/bin/view_mail_attachment.rb --file:%s --type:jpg
+image/pjpeg; ~/bin/view_mail_attachment.rb --file:%s --type:jpg
+image/png; ~/bin/view_mail_attachment.rb --file:%s --type:png
+image/gif; ~/bin/view_mail_attachment.rb --file:%s --type:gif
+
+# PDFs
+application/pdf; ~/bin/view_mail_attachment.rb --file:%s --type:pdf
+
+# HTML
+text/html; ~/bin/view_mail_attachment.rb --file:%s --type:html
+
+# Unidentified files
+application/octet-stream; ~/bin/view_mail_attachment.rb --file:%s --type:"-"
