@@ -1,0 +1,9 @@
+# file: /etc/procmailrc
+# system-wide settings for procmail
+DEFAULT=$HOME/Maildir/
+LOGFILE=$HOME/Messages/procmail
+DELIVER="/usr/local/opt/dovecot/libexec/dovecot/deliver"
+DROPPRIVS="YES"
+:0 w
+| $DELIVER
+VERBOSE=on
