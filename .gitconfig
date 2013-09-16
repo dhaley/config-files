@@ -1,0 +1,10 @@
+[user]
+	email = damon.haley@colorado.edu
+[core]
+	editor = /usr/local/bin/emacsclient
+[push]
+	default = simple
+[help]
+	autocorrect = 1
+[core]
+    excludesfile = /Users/daha1836/.gitignore_global

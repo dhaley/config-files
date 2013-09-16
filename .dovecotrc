@@ -1,0 +1,4 @@
+protocols = imap imaps
+mail_location = maildir:%h/Maildir
+auth default {
+}
