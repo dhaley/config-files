@@ -3,6 +3,10 @@
 .LSOverride
 Icon
 
+GPATH
+GRTAGS
+GTAGS
+
 
 # Thumbnails
 ._*
@@ -83,3 +87,12 @@ local.properties
 
 # PDT-specific
 .buildpath
+
+# Drupal
+# authorize.php
+# cron.php
+# install.php
+# robots.txt
+# update.php
+# web.config
+# xmlrpc.php
