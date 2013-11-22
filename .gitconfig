@@ -1,10 +1,16 @@
 [user]
-	email = damon.haley@colorado.edu
+        email = damon.haley@colorado.edu
 [core]
-	editor = /usr/local/bin/emacsclient
+        editor = /usr/local/bin/emacsclient
 [push]
-	default = simple
+        default = simple
 [help]
-	autocorrect = 1
+        autocorrect = 1
 [core]
     excludesfile = /Users/daha1836/.gitignore_global
+[merge]
+  tool = ediff
+[mergetool "ediff"]
+  cmd = emacsclient -c -a \"\"  --eval \"(ediff-merge-files-with-ancestor \\\"$LOCAL\\\" \\\"$REMOTE\\\" \\\"$BASE\\\" nil \\\"$MERGED\\\")\"
+[init]
+	templatedir = ~/.git_template
