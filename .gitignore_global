@@ -21,7 +21,6 @@ GTAGS
 /.emacs.desktop.lock
 .elc
 auto-save-list
-tramp
 .\#*
 
 # Emacs noise
